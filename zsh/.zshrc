@@ -23,7 +23,19 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 # my aliases
 alias nv=nvim
 alias cdcode="cd ~/Documents/Coding\ Projs\ Linux"
-alias cdschool="cd ~/Nextcloud/School\ Files/AY\ 2025-2026/Second\ Trimester"
+alias cdschool="cd ~/Documents/School\ Files/AY\ 2025-2026/Third\ Trimester"
 alias cdcloud="cd ~/Nextcloud"
-export PATH=$PATH:~/.spicetify
-export PATH=$PATH:/home/notgian/.cargo/bin
+
+# path variables
+export PATH=$PATH:"$HOME/.spicetify"
+export PATH=$PATH:"$HOME/.cargo/bin"
+export PATH=$PATH:"$HOME/go/bin"
+
+# bun completions
+[ -s "/home/notgian/.bun/_bun" ] && source "/home/notgian/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+if [ -e /home/notgian/.nix-profile/etc/profile.d/nix.sh ]; then . /home/notgian/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

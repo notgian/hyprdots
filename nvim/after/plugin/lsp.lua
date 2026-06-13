@@ -15,7 +15,7 @@ local lspList = {
     'css',
     'json',
     'ts_ls',
-    -- 'quick_lint_js'
+    'jdtls'
 }
 
 -- enabling and configuring lsps

@@ -16,7 +16,7 @@
         "preferredPlayer": "",
         "visualizerType": "linear",
         "volumeOverdrive": true,
-        "volumeStep": 5
+        "volumeStep": 4
     },
     "bar": {
         "backgroundOpacity": 0,
@@ -195,7 +195,7 @@
         "size": 1.01
     },
     "general": {
-        "animationDisabled": false,
+        "animationDisabled": true,
         "animationSpeed": 1.5,
         "avatarImage": "/home/notgian/.face",
         "compactLockScreen": false,
@@ -235,7 +235,7 @@
     },
     "notifications": {
         "criticalUrgencyDuration": 15,
-        "doNotDisturb": false,
+        "doNotDisturb": true,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -303,7 +303,7 @@
             {
                 "directory": "/home/notgian/myconfigs/other/wallpapers",
                 "name": "eDP-1",
-                "wallpaper": "/home/notgian/wallpapers/maaomao.jpg"
+                "wallpaper": "/home/notgian/wallpapers/cityscape rain.png"
             },
             {
                 "directory": "/home/notgian/wallpapers",
@@ -313,7 +313,7 @@
             {
                 "directory": "/home/notgian/wallpapers",
                 "name": "HDMI-A-1",
-                "wallpaper": "/home/notgian/wallpapers/maaomao.jpg"
+                "wallpaper": "/home/notgian/wallpapers/cityscape rain.png"
             }
         ],
         "randomEnabled": false,

@@ -78,15 +78,15 @@ fi;
 echo ""
 
 
-echo "${bold}Pulling ${ul}ghostty${rul} dotfiles into repository...${normal}"
-if [[ -e "$HOME/.config/ghostty" ]]; then
-    if [[ -e "$PWD/ghostty" ]]; then
-        echo "▷ removing local ghostty directory..."
-        rm -r "$PWD/ghostty"
+echo "${bold}Pulling ${ul}kitty${rul} dotfiles into repository...${normal}"
+if [[ -e "$HOME/.config/kitty" ]]; then
+    if [[ -e "$PWD/kitty" ]]; then
+        echo "▷ removing local kitty directory..."
+        rm -r "$PWD/kitty"
     fi;
     echo "▷ copying dotfiles..."
-    cp -r "$HOME/.config/ghostty" "$PWD/"
-    echo "▷ ghostty dotfiles successfully pulled! ✔"
+    cp -r "$HOME/.config/kitty" "$PWD/"
+    echo "▷ kitty dotfiles successfully pulled! ✔"
 else
     echo "▷ ts don't exist brother... ❌"
 fi;
