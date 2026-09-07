@@ -17,8 +17,8 @@ hl.monitor({
     position = "0x0",
     scale    = "1",
 })
-
--- HDMI secondary monitor above
+--
+-- -- HDMI secondary monitor above
 hl.monitor({
     output   = "HDMI-A-1",
     mode     = "1920x1080@60",
@@ -33,3 +33,14 @@ hl.monitor({
 --     position = "-1920x0",
 --     scale    = "1",
 -- })
+
+
+-- For mirroring
+-- hl.monitor({
+--     output   = "HDMI-A-1",
+--     mode     = "1920x1080@60",
+--     position = "0x0",
+--     scale    = "1",
+--     mirror   = "eDP-1"
+-- })
+

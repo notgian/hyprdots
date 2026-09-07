@@ -1,8 +1,11 @@
 return {
     {
         'saghen/blink.cmp',
-        dependencies = { 'rafamadriz/friendly-snippets' },
+        dependencies = { 
+            'rafamadriz/friendly-snippets' 
+        },
         build = {'cargo build --release'},
+        branch = 'v1',
         opts = {
             keymap = {
                 -- set to 'none' to disable the 'default' preset
@@ -94,8 +97,8 @@ return {
                 fuzzy = {
                     implementation = "prefer_rust",
                     prebuilt_binaries = {
-                       download = true,
-                       force_version = "1.6"
+                        download = true,
+                        force_version = "1.6"
                     }
                 }
             },
@@ -103,5 +106,4 @@ return {
         },
 
     }
-
 

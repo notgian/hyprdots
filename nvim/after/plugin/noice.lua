@@ -93,7 +93,7 @@ require("noice").setup({
         },
     },
     notify = {
-        enabled = true,
+        enabled = false,
         view = "notify",
     },
     lsp = {

@@ -6,4 +6,5 @@ require("options.set")
 require("options.lazy")
 
 -- load some things manually
+require("options.floatingterm")
 require("options.color")

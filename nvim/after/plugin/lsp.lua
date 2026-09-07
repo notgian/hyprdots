@@ -15,7 +15,8 @@ local lspList = {
     'css',
     'json',
     'ts_ls',
-    'jdtls'
+    'jdtls',
+    'marksman'
 }
 
 -- enabling and configuring lsps

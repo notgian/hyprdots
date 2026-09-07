@@ -235,7 +235,7 @@
     },
     "notifications": {
         "criticalUrgencyDuration": 15,
-        "doNotDisturb": true,
+        "doNotDisturb": false,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -303,7 +303,7 @@
             {
                 "directory": "/home/notgian/myconfigs/other/wallpapers",
                 "name": "eDP-1",
-                "wallpaper": "/home/notgian/wallpapers/cityscape rain.png"
+                "wallpaper": "/home/notgian/wallpapers/DLC-214.jpg"
             },
             {
                 "directory": "/home/notgian/wallpapers",
@@ -313,7 +313,7 @@
             {
                 "directory": "/home/notgian/wallpapers",
                 "name": "HDMI-A-1",
-                "wallpaper": "/home/notgian/wallpapers/cityscape rain.png"
+                "wallpaper": "/home/notgian/wallpapers/DLC-214.jpg"
             }
         ],
         "randomEnabled": false,

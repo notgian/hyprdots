@@ -25,11 +25,13 @@ alias nv=nvim
 alias cdcode="cd ~/Documents/Coding\ Projs\ Linux"
 alias cdschool="cd ~/Documents/School\ Files/AY\ 2025-2026/Third\ Trimester"
 alias cdcloud="cd ~/Nextcloud"
+alias tux="tuxedo $HOME/todo.txt"
 
 # path variables
 export PATH=$PATH:"$HOME/.spicetify"
 export PATH=$PATH:"$HOME/.cargo/bin"
 export PATH=$PATH:"$HOME/go/bin"
+export PATH=$PATH:"$HOME/.bun/bin"
 
 # bun completions
 [ -s "/home/notgian/.bun/_bun" ] && source "/home/notgian/.bun/_bun"
